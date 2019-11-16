@@ -3,9 +3,9 @@ def fizz_buzz(number):
     if 0 < number <= 9999:
         if check_fizz_buzz_deluxe(number):
             return "fizz buzz deluxe"
-        elif check_fizz_deluxe():
+        elif check_fizz_deluxe(number):
             return "fizz deluxe"
-        elif check_buzz_deluxe():
+        elif check_buzz_deluxe(number):
             return "buzz deluxe"
         elif check_deluxe(number):
             return "deluxe"
@@ -59,6 +59,7 @@ def check_digit(number):
 
 def check_number(number, digit):
     return str(digit) in str(number)
+
 
 
 
