@@ -16,8 +16,17 @@ def fizz_buzz(number):
         return number
 
 
+
+def check_fizz(number)
+    
+
+
+
+
 def check_number(number, digit):
     return str(digit) in str(number)
+
+
 
 
 
