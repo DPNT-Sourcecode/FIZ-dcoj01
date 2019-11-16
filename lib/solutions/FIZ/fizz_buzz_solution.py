@@ -15,6 +15,7 @@ def fizz_buzz(number):
 def check_number(number, digit):
     return str(digit) in str(number)
 
-fizz_buzz(35)
+
+
 
 
