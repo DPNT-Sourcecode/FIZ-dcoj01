@@ -15,11 +15,11 @@ def fizz_buzz(number):
 
 
 def check_fizz(number):
-    return number % 3 == 0
+    return number % 3 == 0 or check_number(number, 3)
 
 
 def check_buzz(number):
-    return number % 5 == 0
+    return number % 5 == 0 or check_number(number, 5)
 
 
 def check_fizz_buzz(number):
@@ -45,6 +45,7 @@ def check_digit(number):
 
 def check_number(number, digit):
     return str(digit) in str(number)
+
 
 
 
