@@ -8,8 +8,8 @@ from accelerate_runner.lib.solutions.IRNG import int_range
 from accelerate_runner.lib.solutions.FIZ import fizz_buzz_solution
 from accelerate_runner.lib.solutions.CHK import checkout_solution
 from accelerate_runner.lib.solutions.CHL import checklite_solution
-from accelerate_runner.lib.solutions.utils import Utils
-from accelerate_runner.lib.solutions.user_input_action import get_user_input
+from accelerate_runner.lib.runner.utils import Utils
+from accelerate_runner.lib.runner.user_input_action import get_user_input
 
 
 """
@@ -71,3 +71,4 @@ ChallengeSession\
     .with_config(Utils.get_config())\
     .with_action_provider(lambda: get_user_input(sys.argv[1:]))\
     .start()
+
