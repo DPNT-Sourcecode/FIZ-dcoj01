@@ -25,7 +25,7 @@ class TestFizz_buzz():
     def test_check_fizz(self):
         assert (fb.check_fizz(18) == True)
         assert (fb.check_fizz(13) == True)
-        assert (fb.check_fizz(45) == False)
+        assert (fb.check_fizz(22) == False)
 
     def test_check_buzz(self):
         assert (fb.check_buzz(10) == True)
@@ -39,6 +39,7 @@ class TestFizz_buzz():
     def test_check_number(self):
         assert (fb.check_number(335, 3) == True)
         assert (fb.check_number(335, 6) == False)
+
 
 
 
