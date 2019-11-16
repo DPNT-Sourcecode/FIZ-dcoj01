@@ -10,7 +10,3 @@ class TestFizz_buzz():
        assert (fb.fizz_buzz(1) == 1)
 
 
-
-
-
-
