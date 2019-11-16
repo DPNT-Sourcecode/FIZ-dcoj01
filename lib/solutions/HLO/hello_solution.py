@@ -8,5 +8,3 @@ def hello(friend_name):
 
 hello('John')
 
-
-
