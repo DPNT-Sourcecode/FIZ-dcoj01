@@ -21,4 +21,3 @@ def check_number(number, digit):
 
 
 
-
