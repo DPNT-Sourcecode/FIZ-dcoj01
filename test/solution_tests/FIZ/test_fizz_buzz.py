@@ -8,6 +8,7 @@ class TestFizz_buzz():
        assert (fb.fizz_buzz(999) == 'deluxe')
        assert (fb.fizz_buzz(555) == 'fizz buzz deluxe')
        assert (fb.fizz_buzz(1) == 1)
-              
+
+
 
 
