@@ -17,14 +17,30 @@ def fizz_buzz(number):
 
 
 
-def check_fizz(number)
-    
+def check_fizz(number):
+    return number % 3 == 0
+
+
+def check_buzz(number):
+    return number % 5 == 0
+
+
+def check_fiz_buzz(number):
+    return (number % 3==0 and number% 5 == 0) or \
+           (check_number(number, 3) and check_number(number, 5)) or \
+           (check_number(number, 3) and number % 5 == 0) or \
+           (check_number(number, 5) and number % 3 == 0)
+
+def check_digit(number):
+    s = str(number)
+    check_number = int(s[0]*len(s))
 
 
 
 
 def check_number(number, digit):
     return str(digit) in str(number)
+
 
 
 
