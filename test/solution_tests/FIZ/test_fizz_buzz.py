@@ -27,6 +27,14 @@ class TestFizz_buzz():
         assert (fb.check_fizz(13) == True)
         assert (fb.check_fizz(22) == False)
 
+    def test_check_fizz_deluxe(self):
+        assert (fb.check_fizz_deluxe(33) == True)
+        assert (fb.check_fizz(25) == False)
+
+    def test_check_buzz_deluxe(self):
+        assert (fb.check_buzz_deluxe(55) == True)
+        assert (fb.check_buzz_deluxe(25) == False)
+
     def test_check_buzz(self):
         assert (fb.check_buzz(10) == True)
         assert (fb.check_buzz(53) == True)
@@ -39,7 +47,3 @@ class TestFizz_buzz():
     def test_check_number(self):
         assert (fb.check_number(335, 3) == True)
         assert (fb.check_number(335, 6) == False)
-
-
-
-
