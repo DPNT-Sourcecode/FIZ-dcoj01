@@ -5,4 +5,3 @@ class TestFizz_buzz(TestCase):
     #assert(fb.fizz_buzz(3) == 'fizz')
     pass
 
-
