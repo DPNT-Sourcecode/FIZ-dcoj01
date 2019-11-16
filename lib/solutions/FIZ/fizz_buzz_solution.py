@@ -40,11 +40,11 @@ def check_deluxe(number):
 
 
 def check_fizz_deluxe(number):
-    return (check_deluxe and check_digit(number) and check_fizz(number))
+    return check_deluxe(number) and check_fizz(number)
 
 
 def check_buzz_deluxe(number):
-    return check_deluxe and check_digit(number) and check_buzz(number)
+    return check_deluxe(number) and check_buzz(number)
 
 
 def check_fizz_buzz_deluxe(number):
@@ -59,6 +59,7 @@ def check_digit(number):
 
 def check_number(number, digit):
     return str(digit) in str(number)
+
 
 
 
