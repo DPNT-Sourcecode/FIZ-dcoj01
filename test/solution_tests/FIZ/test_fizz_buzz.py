@@ -47,5 +47,3 @@ class TestFizz_buzz():
     def test_check_number(self):
         assert (fb.check_number(335, 3) == True)
         assert (fb.check_number(335, 6) == False)
-
-
