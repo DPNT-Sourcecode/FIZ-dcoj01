@@ -1,15 +1,15 @@
 import sys
 from tdl.queue.queue_based_implementation_runner import QueueBasedImplementationRunnerBuilder
 from tdl.runner.challenge_session import ChallengeSession
-from solutions.SUM import sum_solution
-from solutions.HLO import hello_solution
-from solutions.ARRS import array_sum
-from solutions.IRNG import int_range
-from solutions.FIZ import fizz_buzz_solution
-from solutions.CHK import checkout_solution
-from solutions.CHL import checklite_solution
-from runner.utils import Utils
-from runner.user_input_action import get_user_input
+from accelerate_runner.lib.solutions.SUM import sum_solution
+from accelerate_runner.lib.solutions.HLO import hello_solution
+from accelerate_runner.lib.solutions.ARRS import array_sum
+from accelerate_runner.lib.solutions.IRNG import int_range
+from accelerate_runner.lib.solutions.FIZ import fizz_buzz_solution
+from accelerate_runner.lib.solutions.CHK import checkout_solution
+from accelerate_runner.lib.solutions.CHL import checklite_solution
+from accelerate_runner.lib.solutions.utils import Utils
+from accelerate_runner.lib.solutions.user_input_action import get_user_input
 
 
 """
